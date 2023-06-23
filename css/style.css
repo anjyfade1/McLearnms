@@ -100,7 +100,6 @@ h3{
 
 .nav-item{
   padding: 0 10px 0 10px !important;
-  /* margin: 0 5px 0 5px !important; */
 }
 
 .get_btn_mob{
@@ -193,25 +192,21 @@ h3{
 .accordion-button.collapsed::before {
   color: var(--white) !important;
   position: absolute;
-  /* content:  url(/images/close.svg); */
-    left: 5%;
-      top: 30%;
-      /* transform: translateY(-50%) !important; */
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 1;
+  left: 5%;
+  top: 30%;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1;
 }
 
 .accordion-button::after {
   color: var(--white) !important;
-   position: absolute;
-  /* content:  url(/images/close.svg) !important; */
-      left: 5%;
-      top: 30%;
-      /* transform: translateY(-25%) !important; */
-      font-weight: 900;
-      font-size: 18px;
-      /* line-height: 1; */
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  font-weight: 900;
+  font-size: 18px;
+      
 }
 
 .join_image img{
@@ -225,7 +220,7 @@ h3{
   
 }
 
-/* show me the way */
+/* Carousel */
 
 .carousel-container {
   max-width: 800px;
@@ -381,15 +376,11 @@ button.owl-next, button.owl-prev{
   }
 
   .nv_btn a{
-    /* border-radius: 30px !important;  */
     padding: 15px 30px !important; 
     font-size: 15px !important;
-    /* background-color: var(--green) !important; */
+
   }
 
-  .nv_btn {
-    /* margin-leftt: 20px !important; */
-  }
 
   .mbo{
     display: flex;
@@ -397,24 +388,17 @@ button.owl-next, button.owl-prev{
   
 
   .loan_btn{
-    /* border-radius: 30px !important;  */
-    /* padding: 15px 20px !important;  */
-    /* width: 100%; */
+
     font-size: 15px !important;
     margin: auto !important;
     text-align: center;
     margin-left: -50px !important;
-    /* background-color: var(--green) !important; */
+  
   }
+
   .loan_bt{
-    /* border-radius: 30px !important;  */
-    /* padding: 15px 20px !important;  */
-    /* width: 100%; */
     font-size: 15px !important;
     margin: auto !important;
-    /* text-align: center; */
-    /* margin-left: -50px !important; */
-    /* background-color: var(--green) !important; */
   }
 
   .ab{
@@ -510,7 +494,6 @@ button.owl-next, button.owl-prev{
     flex-wrap: wrap;
   }
 
-
   .sub{
     background-color: var(--green) !important; 
     border-radius: 30px !important; 
@@ -548,8 +531,6 @@ button.owl-next, button.owl-prev{
     
   }
 
-
-
   .wh-box img{
     width: 50% !important;
   }
@@ -557,8 +538,6 @@ button.owl-next, button.owl-prev{
   .wh-box p{
     font-size:1rem;
   }
-
-  
  
   .foot_det{
     text-align: center !important;
@@ -568,10 +547,7 @@ button.owl-next, button.owl-prev{
     margin-bottom: 20px !important;
   }
 
-  .foot_extra{
-    /* flex-direction: column; */
-  }
-
+  
   .fto{
     text-align: center !important;
   }
