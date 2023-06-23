@@ -259,6 +259,7 @@ button.owl-next, button.owl-prev{
   border-radius: 8px;
   border: solid var(--neutral_shade) !important; 
   border-width: 0px 1px 1px 1px !important;
+  margin: 0 20px
 }
 
 .carousel-slide img {
@@ -520,6 +521,9 @@ button.owl-next, button.owl-prev{
     font-size: 1rem;
   }
 
+  p{
+    font-size: 14px !important;
+  }
 
   .imo{
     text-align: center !important;
@@ -576,8 +580,9 @@ button.owl-next, button.owl-prev{
 
 
   .loan_btn{
-    margin-left: 0px !important;
+    margin-left: -85px !important;
     margin-bottom: 25px;
+    width: 250px;
   }
 
   .nv_btn{
